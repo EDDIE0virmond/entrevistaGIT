@@ -17,6 +17,7 @@ body
 {
     border: solid black;
     float: unset;
+    background-color: #000000;
 }
 /*pai*/
 #menu-lateral{
@@ -47,8 +48,8 @@ body
     text-align: center;
     background-size: contain;
     background-position: center;
-    border: solid silver;
-    background-color: blue;
+    border: solid white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
     border-radius: 3px;
     position: relative;
     display: table;
@@ -118,10 +119,17 @@ body
     width:auto;
     height:500px;
     position: relative;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
+
 }
 footer
 {
     float: inherit;
     text-align: end;
     margin-bottom: auto;
+}
+main
+{
+    background: linear-gradient(90deg, rgba(221,221,221,1) 16%, rgba(255,4,4,1) 39%, rgba(255,0,0,0.8955916473317865) 100%);
+
 }
