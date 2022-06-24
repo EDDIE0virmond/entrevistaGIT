@@ -30,6 +30,7 @@ body
     background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
     height: inherit;
     width: 200px;
+    color: #FF051E;
 }
 
 #menu-lateral nav ul li a{
@@ -53,7 +54,7 @@ body
     border-radius: 3px;
     position: relative;
     display: table;
-    color: hotpink;
+    color: white;
 }
 #comandos table
 {
@@ -67,6 +68,7 @@ body
     float: inline-start;
     border-radius: 13px;
     border: solid pink;
+    color: red;
 }
 #comandos table:hover
 {
@@ -74,7 +76,7 @@ body
     background: black;
     background: linear-gradient(to right, #FFFFFF 18%, #FF0000 50%, #FF051E 100%);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: black;
 
     
 }
@@ -118,6 +120,7 @@ body
     margin-left: 210px ;
     width:auto;
     height:500px;
+    padding-top: 10px;
     position: relative;
     background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
 
