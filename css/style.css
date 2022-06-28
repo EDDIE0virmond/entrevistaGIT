@@ -16,7 +16,7 @@ header #logo{
 body
 {
     border: solid black;
-    float: unset;
+    /*float: unset;*/
     background-color: #000000;
 }
 /*pai*/
@@ -25,12 +25,13 @@ body
     text-align: left;
     background-position: left;
     margin: left;
-    position: relative;
-    border: 5px solid linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
+    /*position: relative;*/
+    border: 5px solid honeydew;
     background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
-    height: inherit;
+    height: 650px;
     width: 200px;
     color: #FF051E;
+    float: left;
 }
 
 #menu-lateral nav ul li a{
@@ -40,11 +41,15 @@ body
     size: 30px;
     display: table;
     background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
+    border: 1px solid #ffffff;
 
+}
+#menu-lateral nav ul li{
+    list-style-type: none;
 }
 
 #comandos{
-    padding-top: right;
+    /*padding-top: right;*/
     margin: auto;
     text-align: center;
     background-size: contain;
@@ -55,20 +60,22 @@ body
     position: relative;
     display: table;
     color: white;
+    
 }
 #comandos table
 {
-    padding-top: right;
+    /*padding-top: right;*/
     background-color: blueviolet;
-    position: relative;
+    /*position: relative;*/
     background-position: center;
     background-size: contain;
     text-align: center;
-    margin: auto;
-    float: inline-start;
+    /*margin: auto;*/
+    /*float: inline-start;*/
     border-radius: 13px;
     border: solid pink;
     color: red;
+    
 }
 #comandos table:hover
 {
@@ -82,13 +89,13 @@ body
 }
 #comandos table td ,th
 {
-    padding-top: right;
+    /*padding-top: right;*/
     border-radius: 10px ;
     border: solid pink;
-    background-position: center;
-    background-size: contain;
+    /*background-position: center;*/
+    /*background-size: contain;*/
     text-align: center;
-    margin: auto;
+    /*margin: auto;*/
 }
 
 #comandos table th:hover
@@ -103,6 +110,18 @@ body
     color: black;
     background: linear-gradient(90deg, rgba(221,221,221,1) 16%, rgba(255,4,4,1) 39%, rgba(255,0,0,0.8955916473317865) 100%);
 }
+#main-area
+{
+    border: 5px solid salmon;
+    border-radius: 15px;
+    margin-left: 210px ;
+    width:auto;
+    height:650px;    
+    /*padding-top: 10px;*/
+    /*position: relative;*/
+    background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
+
+}
 #rodape
 {
     margin-top: 10px;
@@ -113,18 +132,7 @@ body
     font-size:12px;
     height: 25px;
 }
-#main-area
-{
-    border: 5px solid salmon;
-    border-radius: 15px;
-    margin-left: 210px ;
-    width:auto;
-    height:500px;
-    padding-top: 10px;
-    position: relative;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(121,18,9,1) 73%, rgba(255,67,0,0.9187935034802784) 100%);;
 
-}
 footer
 {
     float: inherit;
